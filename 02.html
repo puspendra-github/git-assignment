@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+           
+        }
+
+        .signup{
+            height: 500px;
+            width: 500px;
+            background-color: white;
+            margin: 100px auto;
+            border-radius: 5px;
+            text-align: center;
+            padding: 20px;
+        }
+
+      
+        .signup>input{
+            margin-bottom: 20px;
+            
+        }
+        .signup>select{
+            margin-bottom: 20px;
+        }
+
+        .signup>*{
+            
+            width: 90%;
+        }
+        .signup>label{
+            display: flex;
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        .signup>h1{
+            margin-bottom: 30px; 
+        }
+
+        .signup>button{
+            background-color: black;
+            padding: 10px;
+            border: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signup">
+            <h1>Signup</h1>
+            
+                <label for="name">Name:</label>
+        
+            <input type="text" name="name" id="name">
+        </br>
+
+            <label for="batch">Batch:</label>
+ 
+            <select name="batch" id="batch">
+                <option value="sigma1.0">Sigma 1.0</option>
+                <option value="sigma2.0">Sigma 2.0</option>
+            </select>
+        </br>
+
+        <label for="age">Age:</label>
+   
+        <input type="number" name="age" id="age">
+    </br>
+        <label for="email">Email:</label>
+
+        <input type="email" name="email" id="email">
+</br>
+        <label for="password">Password:</label>
+
+        <input type="password" name="password" id="password">
+</br>
+    <button>Signup</button>
+
+
+
+            
+        </div>
+    </div>
+</body>
+</html>
